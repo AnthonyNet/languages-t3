@@ -37,12 +37,17 @@ const navbar = () => {
                 <Link href="/english/oxford">
                   <h2>Oxford</h2>
                 </Link>
+                <Link href="/english/memory_game">
+                  <h2>Memory Game</h2>
+                </Link>
               </div>
             </NavigationMenuLink>
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="nav_X">German</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="nav_X">
+            German
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <NavigationMenuLink>
               <div className="flex h-[400px] w-[374px] items-center justify-center">
