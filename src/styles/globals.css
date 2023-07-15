@@ -94,7 +94,9 @@
 	--text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.97);
 
 	 --background-color: var(--white);
-     --mainCardBack: var(--white);
+	 --nav-background: linear-gradient(132deg, rgb(78,15,140) 0.00%, rgb(122,17,191) 100.00%);
+
+     --main-card-back: var(--white);
 }
 
 @media (prefers-color-scheme: dark){
@@ -123,5 +125,5 @@ body {
 
 .nav_X{
 	font-size: 25px;
-	background-color:  var(--background-color);
+	background:  var(--nav-background);
 }

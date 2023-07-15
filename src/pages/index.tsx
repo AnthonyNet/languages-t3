@@ -20,14 +20,14 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <main className="flex h-[95dvh] flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+      <main className="flex h-[95dvh] flex-col items-center justify-center bg-gradient-to-b from-[#000000] to-[#15162c]">
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               delay: 1,
-              duration: 3,
+              duration: 5,
               ease: "easeOut",
             }}
             className={styles.card__div}
